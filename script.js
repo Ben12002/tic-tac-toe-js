@@ -2,11 +2,11 @@ function boardFactory(){
     const arr = [];
 
     const move = function(marker) {
-
+        
     }
 
     const isGameOver = function(marker) {
-        
+
     }
 }
 
