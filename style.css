@@ -1,0 +1,16 @@
+.board {
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.board .cell {
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
